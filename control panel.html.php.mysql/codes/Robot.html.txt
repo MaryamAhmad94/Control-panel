@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+
+	<style type="text/css">
+		body{
+			background-image:url(robot.png); 
+            background-color: #29293d;
+
+		}
+		   h1 {font-size:50px;  
+		       border:2px solid gray ; 
+		       color: white;
+		       padding:20px;
+		       width: 390px;
+		       margin:top:40px;
+		       margin-left: 40px;}
+		       
+		       h1:hover{
+		       	color: #80ffbf;
+		       	width:350px;
+		       	height: 130px;
+		       	 transition: width 2s;
+		       }
+
+		     h2{
+		     	margin-left: 40px;
+		       font-size: 40px;}
+
+		     	p{ل
+		       margin-left: 40px;
+		       font-size: 30px;
+		   }
+
+		    #button1{ 
+             background-color:#79d2a6; 
+               padding: 15px 32px;
+                border-radius: 20px;
+               text-align: center;
+                font-size: 20px;
+                margin-left:10px;
+                margin-top: 5px;
+                font-weight: bold;
+		     } 
+		     #button1:hover{
+		     	background-color:#ff6666; 
+		     }
+
+		      #button2{ 
+             background-color:#79d2a6; 
+               padding: 15px 32px;
+               text-align: center;
+               width:116px;
+                font-size: 20px;
+                margin-left:5px;
+                margin-top: 5px;
+                font-weight: bold;
+		     }
+		     #button2:hover{
+		      background-color:#ffff66; 
+		     }
+
+		     #button3{ 
+             background-color:#79d2a6; 
+               padding: 15px 32px;
+               text-align: center;
+                margin-left:30px;
+                font-size: 20px;
+                margin-top: 5px;
+                font-weight: bold;
+		     }
+             #button3:hover{
+             background-color:#008000; 
+
+             }
+		     div { 
+               padding: 10px 32px; 
+               width: 40px;
+               text-align: center;
+                margin-left:120px;
+                font-size: 20px;
+                margin-top: 50px;
+		     }
+		     #button4{
+		       padding: 10px 20px; 
+               background-color:#79d2a6; 
+                font-weight: bold;
+                 font-size: 20px;
+                  width:122px;
+                  height: 60px;
+		     }
+		      #button4:hover{
+		       background-color:#0073e6; 
+		      }
+		     .button5{
+		      margin-top: 8px;
+
+		     }
+		     #button5{
+		     	 padding: 10px 20px; 
+               background-color:#79d2a6;
+               font-weight: bold;
+               width:122px;
+                height: 60px;
+                font-size: 20px;
+		     }
+		     #button5:hover{
+		     background-color:#808080;
+
+		     }
+
+
+	</style>
+	<title></title>
+</head>
+<body>
+
+<h1>W E L C O M E </h1>
+<h2>My name is Saadia..</h2>
+<p>Where would you like to be your next destination?
+</p>
+<div>
+	<form  action="connect.php" method="POST">
+<button id="button4" type="submit" name="Backward"> Backward</button></div>
+
+<button id="button3"  type="submit" name="Right"> Right</button>
+<button id="button1"  type="submit" name="STOP" > STOP</button>
+<button id="button2" type="submit" name="Left" > Left</button>
+<div class="button5 ">
+<button id="button5" type="submit" name="Forward">Forward</button>
+</form>
+</div>
+
+ 
+
+<!-- My name is / maryam ahmad fouad  -->
+
+
+</body>
+</html>
